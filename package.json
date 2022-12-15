@@ -1,0 +1,13 @@
+{
+  "name": "demo-rrweb-socketio",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/backend",
+    "packages/frontend"
+  ],
+  "scripts": {
+    "be": "npm run start -w packages/backend",
+    "fe": "npm run start -w packages/frontend"
+  }
+}

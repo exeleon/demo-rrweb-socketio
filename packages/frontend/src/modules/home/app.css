@@ -1,0 +1,20 @@
+.main-app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content span {
+  font-size: 42px;
+  font-weight: bold;
+}
